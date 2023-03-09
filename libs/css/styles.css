@@ -1,0 +1,92 @@
+/* preloader */
+#preloader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: white url(../Images/icons8-conference.gif) no-repeat center center;
+}
+
+/* body style */
+body {
+  overflow: hidden;
+  /* height: 100vh; */
+}
+
+/* modal backdrop removed */
+.modal-backdrop {
+  display: none;
+}
+
+/* folder icon */
+.fa-folder-open {
+  color: #ffcb3d;
+}
+
+/* main table style actually working */
+.table-responsive {
+  height: calc(100vh - 9.5rem);
+  scroll-behavior: smooth;
+}
+
+.table-header {
+  top: 0;
+  position: sticky;
+}
+
+.table-body {
+  border-top: none;
+}
+
+.input-group.md-form.form-sm.form-2 input.amber-border {
+  border: 1px solid #ffca28;
+}
+
+/* scrollbar hidden  */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+/* hide other tables when current is diplayed */
+#locationTable {
+  display: none;
+}
+
+#departmentTable {
+  display: none;
+}
+
+
+/* positioning edit and delete buttons on modal */
+.edit-table-header {
+    text-align: center;
+}
+
+.delete-table-header {
+    text-align: center;
+}
+
+
+/* drop down styles */
+.dropdown-toggle::after {
+  display:none;
+}
+
+/* toast */
+.toast-body {
+  opacity: 1 !important;
+  background-color: white !important;
+}
+
+.toast-header {
+  opacity: 1 !important;
+  background-color: white !important;
+}
+
+
